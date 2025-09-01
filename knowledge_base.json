@@ -1,0 +1,122 @@
+[
+    {
+        "question": "My WordPress site is not loading after installation. What should I do?",
+        "answer": "Ensure that your domain's DNS records or nameservers are correctly pointed to the hosting server. If WordPress dashboard issues persist, verify that an administrator user exists and has the correct permissions."
+    },
+    {
+        "question": "How can I fix plugin installation issues in WordPress?",
+        "answer": "Check your wp-config.php file to ensure that DISALLOW_FILE_MODS and DISALLOW_FILE_EDIT are not set to true. Set them to false if you want to enable plugin and theme installations."
+    },
+    {
+        "question": "Why is my website showing DNS_PROBE_FINISHED_NXDOMAIN or not reachable?",
+        "answer": "This usually happens if your domain is not pointed to the correct nameservers or A record. Update your domain's DNS records and wait 24–48 hours for propagation."
+    },
+    {
+        "question": "My website is not receiving emails but can send them. What can I do?",
+        "answer": "Check your domain's MX records to ensure they are correctly configured. If you are using Google Workspace or another email provider, make sure their MX records are added to your DNS settings."
+    },
+    {
+        "question": "How long does it take for DNS changes to take effect?",
+        "answer": "Any DNS record or nameserver changes can take 24–72 hours to propagate worldwide."
+    },
+    {
+        "question": "I am facing SSL issues on my domain. How can I fix it?",
+        "answer": "Clear your browser cache and cookies after SSL has been enabled. If the issue persists, ensure your domain is correctly pointed to the hosting nameservers and request a free AutoSSL installation."
+    },
+    {
+        "question": "I cannot log in to my cPanel. What should I do?",
+        "answer": "Access cPanel via your client area dashboard or using https://yourdomain.com/cpanel. If login issues continue, reset your cPanel password from the client area."
+    },
+    {
+        "question": "How can I migrate my website from another hosting provider?",
+        "answer": "You can upload your website files and database backup to cPanel, or request a free migration from the support team. After migration, update your domain's DNS records accordingly."
+    },
+    {
+        "question": "Why does my WordPress show 'The link you followed has expired' when installing a theme?",
+        "answer": "This error is often caused by PHP upload size or execution time limits. Increase the values for upload_max_filesize, post_max_size, and max_execution_time in your hosting settings."
+    },
+    {
+        "question": "My hosting account is running out of resources. What can I do?",
+        "answer": "You can upgrade your hosting plan from your client area for more resources such as disk space, RAM, or bandwidth. Contact support if you need guidance."
+    },
+    {
+        "question": "How can I connect my domain to hosting?",
+        "answer": "Update your domain’s nameservers to ns1.xenexcloud.com and ns2.xenexcloud.com. It may take up to 24–48 hours to propagate."
+    },
+    {
+        "question": "What is the nameserver of ZenexCloud?",
+        "answer": "ns1.xenexcloud.com, ns2.xenexcloud.com"
+    },
+    {
+        "question": "How do I access cPanel?",
+        "answer": "Use https://yourdomain.com/cpanel or through your client area dashboard."
+    },
+    {
+        "question": "How do I migrate my website to ZenexCloud?",
+        "answer": "You can request free migration by contacting support or move files via FTP and import the database via phpMyAdmin."
+    },
+    {
+        "question": "What is the difference between ZenLite, ZenCore, and ZenPro?",
+        "answer": "These are shared hosting plans with different resources (disk space, RAM, bandwidth)."
+    },
+    {
+        "question": "Can I host multiple domains in one account?",
+        "answer": "Yes, ZenCore and ZenPro support addon domains."
+    },
+    {
+        "question": "Can I upgrade my hosting plan anytime?",
+        "answer": "Yes, upgrading is possible from your client dashboard without downtime."
+    },
+    {
+        "question": "How to backup my website from cPanel?",
+        "answer": "Go to Files > Backup Wizard and download full or partial backups."
+    },
+    {
+        "question": "How can I restore a backup?",
+        "answer": "Use Backup Wizard or contact support to help you restore files and databases."
+    },
+    {
+        "question": "Is SSL free with ZenexCloud hosting?",
+        "answer": "Yes, all hosting plans include free AutoSSL."
+    },
+    {
+        "question": "How can I register a domain?",
+        "answer": "Visit zenexcloud.com then click 'domain' menu to search and register."
+    },
+    {
+        "question": "How do I renew my domain or hosting service?",
+        "answer": "Log in to the client area and go to Services > My Services or Domains > My Domains."
+    },
+    {
+        "question": "How to manage DNS records (A, MX, TXT)?",
+        "answer": "Go to cPanel > Zone Editor and edit any record."
+    },
+    {
+        "question": "How long does domain propagation take?",
+        "answer": "It can take up to 24–48 hours globally."
+    },
+    {
+        "question": "How do I test a domain before propagation completes?",
+        "answer": "You can edit your local hosts file to point the domain to your server’s IP."
+    },
+    {
+        "question": "How do I create email accounts from cPanel?",
+        "answer": "Go to Email Accounts > Create, choose domain, and set credentials."
+    },
+    {
+        "question": "How do I access Webmail?",
+        "answer": "Visit yourdomain.com/webmail or use the cPanel webmail login."
+    },
+    {
+        "question": "How many emails can I send per hour?",
+        "answer": "Shared hosting limits are usually 200 emails/hour. Contact support for VPS/Dedicated limits."
+    },
+    {
+        "question": "Why are my emails going to spam?",
+        "answer": "Ensure SPF, DKIM, and DMARC records are set, and avoid spammy content."
+    },
+    {
+        "question": "How to configure email on Outlook or mobile?",
+        "answer": "Use the configuration guide from Email Accounts > Connect Devices in cPanel."
+    }
+]
