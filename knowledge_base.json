@@ -9,7 +9,7 @@
     },
     {
         "question": "Why is my website showing DNS_PROBE_FINISHED_NXDOMAIN or not reachable?",
-        "answer": "This usually happens if your domain is not pointed to the correct nameservers or A record. Update your domain's DNS records and wait 24–48 hours for propagation."
+        "answer": "This usually happens if your domain is not pointed to the correct nameservers or A record. Update your domain's DNS records and wait 24\u201348 hours for propagation."
     },
     {
         "question": "My website is not receiving emails but can send them. What can I do?",
@@ -17,7 +17,7 @@
     },
     {
         "question": "How long does it take for DNS changes to take effect?",
-        "answer": "Any DNS record or nameserver changes can take 24–72 hours to propagate worldwide."
+        "answer": "Any DNS record or nameserver changes can take 24\u201372 hours to propagate worldwide."
     },
     {
         "question": "I am facing SSL issues on my domain. How can I fix it?",
@@ -41,7 +41,7 @@
     },
     {
         "question": "How can I connect my domain to hosting?",
-        "answer": "Update your domain’s nameservers to ns1.xenexcloud.com and ns2.xenexcloud.com. It may take up to 24–48 hours to propagate."
+        "answer": "Update your domain\u2019s nameservers to ns1.xenexcloud.com and ns2.xenexcloud.com. It may take up to 24\u201348 hours to propagate."
     },
     {
         "question": "What is the nameserver of ZenexCloud?",
@@ -93,11 +93,11 @@
     },
     {
         "question": "How long does domain propagation take?",
-        "answer": "It can take up to 24–48 hours globally."
+        "answer": "It can take up to 24\u201348 hours globally."
     },
     {
         "question": "How do I test a domain before propagation completes?",
-        "answer": "You can edit your local hosts file to point the domain to your server’s IP."
+        "answer": "You can edit your local hosts file to point the domain to your server\u2019s IP."
     },
     {
         "question": "How do I create email accounts from cPanel?",
@@ -118,5 +118,405 @@
     {
         "question": "How to configure email on Outlook or mobile?",
         "answer": "Use the configuration guide from Email Accounts > Connect Devices in cPanel."
+    },
+    {
+        "question": "What is the server  a nameserver?",
+        "answer": "To connect your domain and hosting using nameserver "
+    },
+    {
+        "question": "Why my website is not opening in browser?",
+        "answer": "Please try to check your browser cache and cookies or incognito mode or diffrent browser. Please verify the functionality of your domain by performing a ping test. If the domain does not respond as expected, kindly proceed to check the DNS configuration using IntoDNS to ensure that your DNS records are correctly pointed and properly set up"
+    },
+    {
+        "question": "CPanel password not working, why?",
+        "answer": "Please check your passwod again if not works please open a support ticket from your client portal"
+    },
+    {
+        "question": "How do I create an email ID in cPanel?",
+        "answer": "Log in to your cpanel account and search email account and there please click on creaete email account "
+    },
+    {
+        "question": "My email not sending, why always marked as spam?",
+        "answer": "Please check on your cpanel zone editor to ensure that correct your mx record spf and dkim record point properly."
+    },
+    {
+        "question": "How to connect my domain with hosting?",
+        "answer": "Please point Nameserver that you will find your registerd email that you recived from us."
+    },
+    {
+        "question": "Site always slow, what\u2019s wrong?",
+        "answer": "Log in to your cpanel and search reasurce usage that you can find your current usage if its reasurce hit please upgrade your package."
+    },
+    {
+        "question": "My account suspended, why?",
+        "answer": "Please check your email that already sent to you a valid reason for suspended your hosting service."
+    },
+    {
+        "question": "Why DNS is not updating?",
+        "answer": "Please point correctly Ns record and wait for 24 to 72 hour for worldwide propagation your domain "
+    },
+    {
+        "question": "My SSL not working, site shows \u201cnot secure\u201d.",
+        "answer": "Please login to your cpanel and search ssl tls/status there you find free ssl please click on that and please make sure that nameserver pointed our server."
+    },
+    {
+        "question": "CPanel login page not loading.",
+        "answer": "1- You can check with different browser or with a different network and see if its work, 2- If it didnt work then ( we are sending this to a support member he will solve this or you can open ticket by login to your registered account"
+    },
+    {
+        "question": "I forgot my cPanel password, how to login?",
+        "answer": "1. cPanel credential can't  be provided through live chat so open a ticket to support department to claim it or simply change it by login to your client account and then go to service and from there you can change the cPanel account password"
+    },
+    {
+        "question": "Billing shows extra charges, why?",
+        "answer": "1. Can you explain from where you are seein it? 2. Oh okay! you can mail to sales team by login to your client account or i can shift this session with a support member to help you."
+    },
+    {
+        "question": "How to upload files to my site in cPanel?",
+        "answer": "Go to domain then select that subdomain or addon domain or main domain and check the root directory of that domain and go to that directory. After that upload the zip and extract that . Do you also need help to upload database and conenct database with it ? 2. If yes. Go to \"manage my database\" then create database and user and assign user to database. Then go to php my admin and upload the existing database (.sql) file there."
+    },
+    {
+        "question": "Why error 500 is showing?",
+        "answer": "1. Login to your cPanel and then check the resource usage. If resource is full then upgrade the plan as per your hosting file needed. Or optimize your website/web application. 2. If resource is okay then you can check php version mismatch or error log from cPanel and fixed it. IF you still need human assit then let me know i can forward it to my team."
+    },
+    {
+        "question": "I created a subdomain but it’s not working.",
+        "answer": "1. Check IP pointed properly or not. OR share the error code with us. Also if you recently created it then kindly wait for propagation time. You can check propagation status by visit this link : https://dnschecker.org/"
+    },
+    {
+        "question": "Where is phpMyAdmin?",
+        "answer": "Login to cPanel then search phpmyadmin and go there."
+    },
+    {
+        "question": "Why MySQL is not connecting?",
+        "answer": "1. If your website build with wordpress then check wp-config.php file and match the username and database and password and hopefully the issue will be resolved. 2. If still need help then open a ticket by login to your client portal from zenexcloud."
+    },
+    {
+        "question": "Email bounce back, why?",
+        "answer": "1. Check the bounce back report. If it shows 550- failed to delivered to recipeint server. That means the mail successfully outbound from the mail server and rejected by the recipient server 2. If the bounce back something else then i can help you to connect with our honrable system team to solve the issue"
+    },
+    {
+        "question": "Can I use a free domain here?",
+        "answer": "Sorry we don't provide free domain now. We are thinking about it."
+    },
+    {
+        "question": "Renewal cost is higher, why?",
+        "answer": "1. Its our resonable price right now."
+    },
+    {
+        "question": "Site hacked, who’s at fault?",
+        "answer": "1. share the domain name or the website name which is hacked. 2. I am forwarding it to my team they will check. In the mean time for better experience, you can open a ticket by login to your client area. You will get better experience on ticket."
+    },
+    {
+        "question": "Why FTP is not connecting?",
+        "answer": "1. FTP connections fail most often due to incorrect login credentials, port settings, network issues. 2. To troubleshoot, verify your hostname, port, username, and password; ensuring FTP is allowed. If the problem persists, please open a support ticket."
+    },
+    {
+        "question": "How to increase storage space in cPanel?",
+        "answer": "1. To increase your storage space in cPanel, you can either delete unnecessary files and data through the File Manager. 2. You can upgrade your hosting plan to get more storage space. Please visit our client portal to see available upgrade options."
+    },
+    {
+        "question": "Addon domain not pointing, why?",
+        "answer": "1. First, ensure you have configured the domain's nameservers at your registrar to point to our servers. Second, in cPanel's \"Addon Domains,\" verify the domain and its document root are set up correctly. 2. If the nameservers are correct, the issue might be a rule in the .htaccess file in your primary domain's public_html folder. Temporarily rename this file to see if the addon domain starts working."
+    },
+    {
+        "question": "How to install WordPress in cPanel?",
+        "answer": "1. The recommended method is to use the Softaculous Apps Installer. Navigate to Softaculous, select WordPress, and follow the on-screen prompts for a one-click installation. 2. For more control, you can perform a manual installation: upload the WordPress files to your domain's folder, create a database and user via the \"MySQL Databases\" tool, and then run the WordPress installation script."
+    },
+    {
+        "question": "Why cPanel is slow?",
+        "answer": "1. Slowness in the cPanel interface is often a direct result of your account's resource usage being high. Check the \"Resource Usage\" tool for any recent CPU or I/O faults. 2. Another cause can be a high number of files (inodes). On the cPanel main page, check your \"Inode Usage.\" If it is near the limit, you will need to delete unnecessary files to improve performance."
+    },
+    {
+        "question": "I can’t open Roundcube.",
+        "answer": "1. This is typically a browser-related issue. Clear your browser's cache and cookies, or try accessing webmail using a different browser or an incognito window. 2. If clearing the cache fails, the issue could be with browser extensions, particularly ad-blockers or security suites. Try disabling them temporarily to see if you can access Roundcube."
+    },
+    {
+        "question": "Spam filter blocking good emails, why?",
+        "answer": "1. In cPanel, go to \"Spam Filters.\" Under \"Additional Configurations,\" you can whitelist the specific sender's email address or entire domain to ensure their messages are always delivered. 2. You can also lower the sensitivity of the filter. In \"Spam Filters,\" find the \"Spam Threshold Score\" and change it to a higher number (e.g., from 5 to 8). This will make the filter less aggressive."
+    },
+    {
+        "question": "Why ping is not replying?",
+        "answer": "1. Our servers are configured to ignore ICMP (ping) requests for security reasons. A lack of ping response is normal and does not indicate that your website is down. 2. To check if your website is accessible, use an HTTP-based tool like \"ionos.com/tools/website-checker\". These tools test connectivity by actually trying to load your webpage, which is more reliable than a ping."
+    },
+    {
+        "question": "Site shows parked page only.",
+        "answer": "1. This indicates that your domain's DNS is pointing to your registrar's parking servers, not our hosting servers. You must update your domain's nameservers at your registrar. 2. If you have recently updated your nameservers, you may be seeing a cached result from your ISP. Flush your local DNS cache from your command line using ipconfig /flushdns (Windows) or a similar command for your OS."
+    },
+    {
+        "question": "How to change PHP version in cPanel?",
+        "answer": "1. Navigate to the \"MultiPHP Manager\" tool in cPanel. Select the domain you wish to change, and choose the desired PHP version from the dropdown menu, then click \"Apply.\" 2. In addition to the main version, you can customize specific extensions and variables. Use the \"Select PHP Version\" tool to enable or disable modules like imagick or redis, and \"MultiPHP INI Editor\" to change values like memory_limit."
+    },
+    {
+        "question": "My database lost, where did it go?",
+        "answer": "1. First, go to \"MySQL Databases\" in cPanel to confirm the database and its associated user still exist. The issue may be a corrupted configuration file on your site, not a lost database. 2. If the database is truly gone, you must restore it from a backup. Use the \"Backup\" or \"Backup Wizard\" tool in cPanel to upload and restore the most recent SQL backup file you have for the database."
+    },
+    {
+        "question": "Cron job not running, why?",
+        "answer": "1. The most common error is an incorrect command path. Ensure you are using the full server path (e.g., /home/youruser/public_html/script.php) and not just the filename. 2. For PHP scripts, you may need to specify the PHP interpreter in the command: /usr/bin/php -q /home/youruser/public_html/script.php. Also, redirect the output to a log file (>> /home/youruser/cron.log 2>&1) to capture any errors."
+    },
+    {
+        "question": "Why I paid but status still pending?",
+        "answer": "1. Payment verification can sometimes be delayed, especially with e-check or bank transfer payments. Please check your client portal for any updates on the invoice status. 2. If you paid via a gateway like PayPal, log in to your PayPal account to confirm the transaction status. If it is complete on their end but not ours, please provide the transaction ID in a support ticket."
+    },
+    {
+        "question": "How to cancel hosting?",
+        "answer": "1. To formally cancel a service, you must submit a cancellation request from your client billing portal. This ensures the request is documented and processed correctly. 2. Before you cancel, we recommend taking a full backup of your account using the \"Backup\" tool in cPanel, as all data will be permanently deleted from the server upon termination."
+    },
+    {
+        "question": "How to upgrade hosting plan?",
+        "answer": "1. You can initiate an upgrade at any time through your client billing portal. Navigate to your service and click on the \"Upgrade/Downgrade\" option to see available plans. 2. After you complete the upgrade order, the resource increase (disk space, memory, etc.) is typically applied to your cPanel account automatically within a few minutes."
+    },
+    {
+        "question": "Email goes to junk folder, why?",
+        "answer": "1. The most common reason is a lack of email authentication. Use the \"Email Deliverability\" tool in cPanel to ensure your domain has valid SPF and DKIM records in its DNS. 2. Another key record is DMARC. After setting up SPF and DKIM, you can use the \"Zone Editor\" in cPanel to add a basic DMARC TXT record, which further tells mail servers how to handle your emails."
+    },
+    {
+        "question": "How to move site from old host?",
+        "answer": "1. We provide a migration service via support ticket. Alternatively, you can take a full cPanel backup from your old host and restore it on our server using the \"Backup\" tool. 2. For manual migration, you would need to download all files from your old host's public_html folder via FTP and export the database via phpMyAdmin. Then, upload the files and import the database on our server."
+    },
+    {
+        "question": "Bandwidth over limit, I didn’t use, why?",
+        "answer": "1. In cPanel, use the \"Bandwidth\" tool to see a detailed breakdown of usage by day, and by service (HTTP, FTP, SMTP). This can help you identify a traffic spike or large file downloads. 2. If you suspect unauthorized access, use the logs tool to download a record of all requests made to your website. You can analyze this file to find sources of high traffic."
+    },
+    {
+        "question": "Why file manager is not saving?",
+        "answer": "1. This is almost always a browser-side issue. Try performing a hard refresh (Ctrl+F5), clearing your browser cache, or using a different web browser to access the File Manager. 2. If changing browsers does not work, it may be an issue with file permissions. Right-click on the file or folder you are trying to edit and select \"Change Permissions.\" Ensure they are set to a writable value (e.g., 644 for files)."
+    },
+    {
+        "question": "Site redirects to wrong domain.",
+        "answer": "1. The most likely cause is a redirect rule in your .htaccess file located in the public_html directory. Open it with the File Manager and check for lines containing Redirect or RewriteRule. 2. If the .htaccess file is clean, check the \"Redirects\" tool within cPanel to see if a redirect was created there. Also, for CMS like WordPress, the site URL is stored in the database and may need to be corrected via phpMyAdmin."
+    },
+    {
+        "question": "Who deleted my files?",
+        "answer": "1. Our servers do not delete client files. The deletion would have occurred via FTP, SSH, File Manager, or a compromised script. Check the logs for suspicious activity around the time the files were deleted. 2. If you have backups enabled, you can use the \"Backup\" tool to restore a previous version of the directory. This is often faster than trying to determine the exact cause of the deletion."
+    },
+    {
+        "question": "SSL expired, why auto-renew didn’t work?",
+        "answer": "1. AutoSSL renewal requires your domain's DNS to be pointed correctly to our server. If you recently changed DNS or are using an external DNS provider like Cloudflare, the validation can fail. 2. You can manually trigger a renewal attempt. In cPanel, go to \"SSL/TLS Status,\" select the domain, and click \"Run AutoSSL.\" The log from this attempt will show the specific reason for any failure."
+    },
+    {
+        "question": "Account suspended for abuse, I didn’t abuse, why?",
+        "answer": "1. An \"abuse\" suspension is often triggered automatically, for example, by a script on your account sending spam emails after being compromised. Check the suspension email for details from our security team. 2. If your account was suspended for resource abuse, check the \"Resource Usage\" and \"AWStats\" tools in cPanel (once unsuspended) to identify the script or traffic pattern that caused the issue."
+    },
+    {
+        "question": "How do I know my nameservers?",
+        "answer": "1. The correct nameservers for your account are listed in the welcome email you received upon signup. They are also available in your client billing portal under your service details. 2. You can also find the nameservers for an addon domain by using a public WHOIS lookup tool for your primary domain name, as they typically share the same nameservers."
+    },
+    {
+        "question": "Email delayed, why?",
+        "answer": "1. In cPanel, go to \"Track Delivery\" and run a report for the specific email. The log will show the time it was handed off from our server to the recipient's mail server. Any further delay is on the recipient's end. 2. Delays can be caused by \"greylisting,\" a spam prevention technique where the recipient server temporarily rejects the email. Our server will automatically retry, but this can add a delay of several minutes."
+    },
+    {
+        "question": "Site cache shows old pages, why?",
+        "answer": "1. If you are using a caching plugin on your website (e.g., LiteSpeed Cache, W3 Total Cache), you must purge the cache from the plugin's settings in your website's admin area after making changes. 2. If you use Cloudflare or a similar CDN, you must log in to their dashboard to purge the cache. Caching at the CDN level will override any changes made on the server until it is cleared."
+    },
+    {
+        "question": "Why no support reply?",
+        "answer": "1. Our support tickets are handled in the order they are received. Please check your client portal for the latest response; email notifications can sometimes be filtered as spam. 2. If your ticket requires investigation by a senior administrator, it may take longer than a simple query. Please be assured it is being actively worked on. Avoid opening duplicate tickets as this can slow down the process."
+    },
+    {
+        "question": "cPanel shows quota full but empty.",
+        "answer": "1. This is often caused by a large number of files (inodes), not just their size. Use the \"Disk Usage\" tool to see a folder-by-folder breakdown and identify where the usage is coming from. 2. Often, the hidden \".trash\" folder in your root directory or large email accounts are the cause. Check your webmail to delete old emails with large attachments."
+    },
+    {
+        "question": "Can I use nulled scripts here?",
+        "answer": "1. The use of nulled scripts is a violation of our Terms of Service and is strictly prohibited. These scripts frequently contain backdoors and malware that will compromise your account. 2. If our automated malware scanner detects a nulled script, your account will be suspended immediately pending cleanup. It is critical for server security that you use only legitimate, licensed software."
+    },
+    {
+        "question": "Why email limit is small?",
+        "answer": "1. Shared hosting has hourly email sending limits to protect the server's IP reputation for all users. These limits are not designed for bulk mailing. 2. For sending newsletters or marketing campaigns, you must use a dedicated third-party email service like Mailchimp or SendGrid, which are designed for high-volume sending."
+    },
+    {
+        "question": "How to add free SSL in cPanel?",
+        "answer": "1. Navigate to the \"SSL/TLS Status\" tool in cPanel, select the domains you wish to secure, and click the \"Run AutoSSL\" button. The system will automatically install a Let's Encrypt certificate. 2. If your DNS is not pointed to our server, AutoSSL will fail. In this case, you would need to get a certificate from a provider and then manually install the key, certificate."
+    },
+    {
+        "question": "My site down the whole day, why?",
+        "answer": "1. An expired domain name is a common cause of a site being down. Perform a WHOIS lookup on your domain to ensure its status is \"OK\" and that it has not expired. 2. Please check our public network status page first to see if there is a known server-wide outage. If not, the issue is likely specific to your account or domain."
+    },
+    {
+        "question": "Account blocked, why?",
+        "answer": "1. An account block is different from a suspension and is usually related to a billing issue, such as a credit card chargeback or an unpaid invoice. Please check with our billing department. 2. A block can also be placed if we receive a formal abuse complaint (e.g., copyright infringement) related to your account's content, pending your response to the complaint."
+    },
+    {
+        "question": "CPanel has many errors, why?",
+        "answer": "1. If you are seeing many errors or broken icons within the cPanel interface itself, this typically indicates a temporary server issue or a problem with your local network blocking content. Try a hard refresh (Ctrl+F5). 2. If the issue persists, it may be a problem with the server's cPanel installation. Please open a support ticket with screenshots of the errors so our administrators can investigate."
+    },
+    {
+        "question": "How to unblock IP in cPanel?",
+        "answer": "1. The primary firewall is managed at the server level, so you must contact support to have your IP address whitelisted if you are blocked from accessing your site or cPanel. 2. However, you can use the \"IP Blocker\" tool within cPanel to manually block other IP addresses from accessing your website, but you cannot use it to unblock yourself."
+    },
+    {
+        "question": "Can I get a free trial?",
+        "answer": "1. We do not offer free trials."
+    },
+    {
+        "question": "Why you ask for ID verification?",
+        "answer": "1. Our billing system may flag certain orders for manual verification to protect against fraudulent transactions and the use of stolen credit cards. This is a standard security measure. 2. Verification helps ensure a secure environment for all clients. Once your account is verified, you will not be asked for ID on subsequent orders."
+    },
+    {
+        "question": "What is MX record?",
+        "answer": "1. An MX (Mail Exchanger) record in your domain's DNS zone tells the internet which server is responsible for handling your email. In cPanel, this is managed via the Zone Editor. 2. You can have multiple MX records with different priorities. The server will always try to deliver to the record with the lowest priority number first (e.g., 0), and if that fails, it will try the next one (e.g., 10)."
+    },
+    {
+        "question": "CPanel theme looks ugly, why?",
+        "answer": "1. You can change the visual style of your cPanel interface. Log in and navigate to Preferences > Change Style, then choose a different theme from the available options. 2. The default \"Jupiter\" theme is the most modern, but some users prefer the classic \"Paper Lantern\" theme, which has a different layout. Feel free to switch to the one you find most comfortable."
+    },
+    {
+        "question": "Email receive but cannot send.",
+        "answer": "1. This is almost always an issue with your email client's configuration. Ensure your outgoing mail server (SMTP) is correct and that you are using the right port and SSL/TLS encryption. 2. Many ISPs block the default SMTP port 25. Try using port 465 (with SSL/TLS) or port 587 (with STARTTLS) in your email client's settings as an alternative."
+    },
+    {
+        "question": "Mail sends but does not receive, why?",
+        "answer": "1. This is a classic symptom of incorrect MX records. Go to the Zone Editor in cPanel and ensure your domain's MX record is pointing to the correct mail server address. 2. It can also be caused by your Email Routing setting. In cPanel, go to Email Routing and ensure it is set to Local Mail Exchanger if your email is hosted with us."
+    },
+    {
+        "question": "Why all mail goes to Gmail spam?",
+        "answer": "1. This is due to your domain's sender reputation. Ensure you have valid SPF, DKIM, and DMARC records configured via the Email Deliverability tool in cPanel to authenticate your mail. 2. Additionally, ensure the IP address of the server is not on any blacklists using a tool like MXToolbox. Also, ask recipients to mark your emails as Not Spam to help build your reputation with Gmail."
+    },
+    {
+        "question": "My payment failed, why?",
+        "answer": "1. The most common reason is that the bank that issued your card has declined the transaction. Please contact your bank for more information on the specific reason for the decline. 2. Also, ensure that the billing address you have entered in our client portal exactly matches the address your bank has on file for the credit card, as mismatches will cause a failure."
+    },
+    {
+        "question": "Invoice wrong, fix it.",
+        "answer": "1. I apologize for the discrepancy. Please open a ticket with providing the invoice number and detailing the specific error you have found, and we will correct it. 2. Before opening a ticket, please ensure the invoice does not include a previously unpaid balance or a one-time setup fee, as these can sometimes be mistaken for an error."
+    },
+    {
+        "question": "CPanel says license invalid, why?",
+        "answer": "1. This error indicates a temporary communication issue between our server and cPanel's licensing servers. This is usually resolved automatically within 15-30 minutes. 2. If the error persists, it could mean the server's main IP has changed. Please open a support ticket so our administrators can manually sync the license with the new IP address."
+    },
+    {
+        "question": "I can’t add an addon domain.",
+        "answer": "1. Check the Statistics panel on the right side of cPanel. Your hosting plan has a specific limit on the number of addon domains you can create. You have likely reached this limit. 2. If you have not reached the limit, it's possible the domain name is already associated with another cPanel account on the same server, which is not allowed."
+    },
+    {
+        "question": "SSL does not cover subdomain, why?",
+        "answer": "1. The free AutoSSL certificate typically covers the main domain and common subdomains (like www, mail). If you created a unique subdomain, you may need to run AutoSSL again to include it. 2. A standard SSL certificate is issued for specific hostnames. To cover all possible subdomains, you would need to purchase a Wildcard SSL certificate."
+    },
+    {
+        "question": "What is a parked domain?",
+        "answer": "1. A Parked Domain (or Alias) is a domain that displays the same website content as your primary domain. For example, you can park my-other-domain.com on my-main-domain.com. 2. A Parked Domain (or Alias) is a domain that displays the same website content as your primary domain. For example, you can park my-other-domain.com on my-main-domain.com."
+    },
+    {
+        "question": "How to change nameservers in GoDaddy?",
+        "answer": "1. Log in to GoDaddy, go to My Products > Domains, find your domain, click Manage DNS, and then under Nameservers, click Change to enter our custom nameservers. 2. After you save the new nameservers at GoDaddy, it can take several hours for the change to propagate. You can monitor this progress using a public DNS checker tool."
+    },
+    {
+        "question": "MySQL crashed, why?",
+        "answer": "1. The MySQL service itself rarely crashes. It is more likely that a specific database table has become corrupted. In cPanel, go to MySQL Databases and use the Repair Database tool. 2. If the entire MySQL service is unresponsive, this is a server-level issue that our administrators must resolve. Please check our network status page or open a high-priority ticket."
+    },
+    {
+        "question": "Email forwarder not working.",
+        "answer": "1. In cPanel's Forwarders tool, double-check the spelling of both the source and destination email addresses. A single typo will cause the forward to fail silently. 2. Also, check the spam folder of the destination address. It's possible the forwarded message was received but flagged as spam by the final mail provider (e.g., Gmail, Outlook)."
+    },
+    {
+        "question": "I can’t delete a file in cPanel.",
+        "answer": "1. This is a file permissions issue. In the File Manager, right-click the file, select Change Permissions, and ensure that your user has Write permission checked. 2. If the file's owner is root instead of your cPanel username, you will not be able to delete it. This sometimes happens with improperly configured scripts. You must contact support to have them remove the file."
+    },
+    {
+        "question": "Website redirects to virus site.",
+        "answer": "1. Your website has been compromised, likely via an outdated plugin or theme. The first step is to use the File Manager to inspect your .htaccess file for malicious redirect code. 2. After cleaning the .htaccess file, you must identify and remove the source of the hack. Use the Virus Scanner in cPanel, and immediately update all themes, plugins, and your core CMS application."
+    },
+    {
+        "question": "My database corrupted, why?",
+        "answer": "1. Corruption can occur if the server is improperly shut down or if a script writes malformed data. In cPanel's MySQL Databases, select the database and run the Repair Database tool. 2. For more advanced repair, you can go into phpMyAdmin, select the corrupted table, go to the Operations tab, and use the Repair table function there."
+    },
+    {
+        "question": "phpMyAdmin shows timeout, why?",
+        "answer": "1. This occurs when you try to perform an operation (like an import or a complex query) that exceeds the server's maximum PHP execution time. 2. For importing large databases, you should not use phpMyAdmin. Instead, upload the .sql file via File Manager and then contact support to have an administrator import it via the command line, which bypasses time limits."
+    },
+    {
+        "question": "Who accessed my cPanel account?",
+        "answer": "1. The Last Login IP address is displayed on the main page of cPanel. If you do not recognize this IP, you should immediately change your password and scan your local computer for malware. 2. In cPanel, go to the Metrics section and click Latest Visitors. This will show the last 300 HTTP requests to your site. For login-specific data, you must request a review of the server's security logs via a support ticket."
+    },
+    {
+        "question": "Why site shows default page only?",
+        "answer": "1. This means your domain is resolving to our server, but the server is not finding an index file in the correct directory. Check that your website's files are inside the public_html folder. 2. If you have an addon domain, ensure its Document Root (set in the Addon Domains tool) points to the correct sub-folder within your account, and that this sub-folder contains an index.html or index.php file."
+    },
+    {
+        "question": "I uploaded a file but it\u2019s not showing.",
+        "answer": "1. Check that you uploaded the file to the correct directory, which is usually public_html for your main domain. Also, remember that filenames are case-sensitive on our servers. 2. Verify the file's permissions. In File Manager, right-click the file and select Change Permissions. For a web-accessible file, permissions should be set to 644."
+    },
+    {
+        "question": "How to change my domain name in cPanel?",
+        "answer": "1. The primary domain of a cPanel account cannot be changed. This requires a new hosting account to be created with the new primary domain, followed by a migration of your website's data. 2. If you simply want another domain to show the same website, you can use the Aliases (formerly Parked Domains) tool in cPanel to point the new domain to your existing site."
+    },
+    {
+        "question": "Why SSL shows mixed content?",
+        "answer": "1. This warning means your HTTPS page is loading insecure assets (like images or scripts) via HTTP. Use your browser's developer console (F12) to identify and update the URLs of these assets to HTTPS. 2. A common cause is having a hardcoded http:/ URL in your website's database or theme files. You can use a database search-and-replace plugin or script to fix these URLs in bulk."
+    },
+    {
+        "question": "Why cron job emails not received?",
+        "answer": "1. By default, cron jobs do not send an email unless the script produces some form of output. If a script runs successfully with no output, no email will be sent. 2. To force an email notification for a cron job, you can add a command to the end of your cron task, or ensure you have entered an email address in the Cron Email section at the top of the Cron Jobs page."
+    },
+    {
+        "question": "How to block spam emails in cPanel?",
+        "answer": "1. Go to Spam Filters and enable it. For more aggressive blocking, you can also enable the Move New Spam to a Separate Folder (Spam Box) option.2. For specific, recurring spam, you can create a custom filter. Go to Email Filters > Manage Filters for your address, and create a rule that discards any message where the subject contains a common spam keyword."
+    },
+    {
+        "question": "My email password reset not working, why?",
+        "answer": "1. The password reset tool in webmail or your client portal is the correct method. If it fails, you may be entering the email address or associated username incorrectly. 2. If you are locked out completely, you must open a support ticket from your registered client email address for a manual password reset, after verifying your identity."
+    },
+    {
+        "question": "Webmail quota shows wrong.",
+        "answer": "1. The quota display can sometimes have a slight delay in updating after you delete a large number of emails. Please log out and log back in after a few minutes to see the updated figure. 2. In Email Disk Usage within cPanel, you can see a detailed breakdown of each mail folder's size. You can use this tool to permanently delete messages from your trash or spam folders to free up space."
+    },
+    {
+        "question": "Why FTP upload is slow?",
+        "answer": "1. FTP performance is heavily dependent on your local internet connection's upload speed and network latency. Try using an online speed test to check your current upload bandwidth. 2. If your internet speed is good, the slowness might be due to transferring thousands of very small files, which is inefficient over FTP. It is much faster to zip the files, upload the single archive, and then extract it using the File Manager."
+    },
+    {
+        "question": "How to add SPF record in cPanel?",
+        "answer": "1. Go to the Email Deliverability tool in cPanel. It will analyze your domain and provide the correct SPF record. You can then click Install the Suggested Record to add it automatically. 2. If you use third-party services to send email (e.g., SendGrid, Google Workspace), you must manually add their include: mechanisms to your SPF record via the Zone Editor to authorize them."
+    },
+    {
+        "question": "How to enable DKIM in cPanel?",
+        "answer": "1. Navigate to the Email Deliverability tool. This tool will check your domain's DKIM status and provide a button to Install the Suggested Record, which will generate and install the necessary DKIM key. 2. DKIM works by adding a digital signature to your email headers. If you ever move servers, you must generate a new DKIM record on the new server, as the private key is unique to each server."
+    },
+    {
+        "question": "Why file uploads fail?",
+        "answer": "1. In MultiPHP INI Editor,check the values for upload_max_filesize and post_max_size. Your uploaded file cannot be larger than the smallest of these two values. 2. Uploads can also fail due to ModSecurity rules. If you are trying to upload a valid file that is being blocked, you may need to contact support to have the specific security rule temporarily disabled for your account."
+    },
+    {
+        "question": "Why PHP upload limit is small?",
+        "answer": "1. The default upload limits are set server-wide for stability and security. You can edit these values for your own account using the MultiPHP INI Editor in cPanel, up to a certain maximum allowed value. 2. Remember that post_max_size should always be equal to or larger than upload_max_filesize, as it includes all POST data, not just the file itself."
+    },
+    {
+        "question": "How to increase email size limit?",
+        "answer": "1. The maximum size for an email attachment is configured at the server level by the administrator and cannot be changed from within cPanel. 2. To send files larger than the allowed limit, you should upload the file using the File Manager and then share the direct URL to the file in your email instead of attaching it."
+    },
+    {
+        "question": "Why my addon domain mail not working?",
+        "answer": "1. In the Zone Editor, ensure that your addon domain has an MX record pointing to the correct mail server (usually your primary domain name). This is not always created automatically. 2. Also, check the Email Routing setting for the addon domain. It should be set to Local Mail Exchanger to ensure the server accepts and delivers the mail locally."
+    },
+    {
+        "question": "Webmail not forwarding emails, why?",
+        "answer": "1. Go to the Forwarders tool and edit the forwarder in question. The most common mistake is a typo in the destination email address, which will cause the forward to fail without an error message. 2. Check if the account you are forwarding from has a spam filter that is catching the emails before they can be forwarded. Also, check the spam folder of the destination account."
+    },
+    {
+        "question": "How to enable gzip compression in cPanel?",
+        "answer": "1. Navigate to the Optimize Website tool in cPanel. Select Compress All Content and click Update Settings.This will add the necessary rules to your .htaccess file automatically. 2. This tool enables Gzip compression for common text-based content types. For more advanced control over which file types are compressed, you can manually edit the rules in your .htaccess file."
+    },
+    {
+        "question": "Why backup restore fails in cPanel?",
+        "answer": "1. A restore can fail if the backup file is corrupted or incomplete. More commonly, it fails because restoring it would exceed your account's disk space quota. 2. When restoring a full backup, it temporarily requires nearly double the space. You may need to delete the existing files first (after taking a separate local backup) to free up enough space for the restore process to complete."
+    },
+    {
+        "question": "Why tmp folder full in cPanel?",
+        "answer": "1. The /tmp directory is used by scripts for temporary session files and uploads. It is not accessible to you directly. If it is full, it indicates a runaway script on your account or another account on the server. 2. You should open a support ticket immediately. An administrator will need to investigate which process is filling the /tmp partition and terminate it."
+    },
+    {
+        "question": "How to reset mail queue in cPanel?",
+        "answer": "1. You do not have access to manage the server's mail queue directly from cPanel. This is an administrative task. 2. If you believe your emails are stuck in the queue, please open a support ticket. Our administrators can check the queue and force a delivery attempt if necessary."
+    },
+    {
+        "question": "How to check disk/inode usage in cPanel?",
+        "answer": "1. The main page of cPanel shows a summary. For a detailed view, use the Disk Usage tool, which provides a visual, folder-by-folder breakdown of what is consuming your disk space. 2. To check inode usage, which is the number of files and folders, you can see the total on the main page. To find which folders contain the most files, you would "
+    },
+    {
+        "question": "Why my website shows 403 forbidden error?",
+        "answer": "This error most often means incorrect file or folder permissions. In File Manager, set your folder permissions to 755 and your script/text file permissions to 644. A 403 error can also be caused by a rule in your .htaccess file. For example, a rule like Options -Indexes will cause a 403 error if you try to view a directory that doesn't have an index file."
     }
 ]
